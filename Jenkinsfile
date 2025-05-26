@@ -1,4 +1,4 @@
-@Library('jenkinsfile-shared-library') _
+@Library('jenkinsfile-shared-library@main') _
 
 def config = readYaml text: """
   APP: 'Demo'
